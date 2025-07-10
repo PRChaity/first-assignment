@@ -20,13 +20,15 @@ header{
 .nav-style{
     display: flex;
     justify-content: space-between;
+    
    
 
 }
 
 nav ul li{
     list-style: none;
-    margin: 4%
+    margin: 10%;
+    margin-top: 2%;
 }
 
 .logo{
@@ -53,9 +55,10 @@ nav ul li{
 .heading{
    
     text-align: center;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 50px;
     color: #252432;
+    opacity: 1;
    
 }
 .btn{
@@ -90,3 +93,44 @@ gap: 37px;
     gap: 37px;
     
 }
+
+/* action section */
+.action-container{
+    display: flex;
+    justify-content: space-between;
+   margin: 10%;
+   padding-left: 5%;
+    gap: 60px;
+}
+
+.action-content{
+    width:517px;
+    height: 203px;
+}
+
+h4{
+    color: #252432 ;
+    font-size: 42px;
+    
+}
+
+p{
+        color:#252432 ;
+        font-size: 30px;
+        opacity: 0.5;
+}
+
+.btn-action{
+
+    color: #FFFFFF ;
+    background-color: #4E47FF;
+    border: 2px solid #4E47FF;
+    border-radius: 10px;
+    height: 48px;
+    width: 229px;
+    font-size: 13px;
+    cursor: pointer;
+    
+
+}
+
