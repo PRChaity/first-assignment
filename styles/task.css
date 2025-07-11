@@ -1,11 +1,13 @@
 body{
-
+    background-color: #efefff;
     margin: 0px;
      font-family: 'Times New Roman', Times, serif;
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
-
+button:hover{
+    background-color: #3298ec;
+}
 header{
     height: 698px;
     max-width: auto;
@@ -198,3 +200,90 @@ h3{
 }
 
 
+/* Touch Section */
+.touch-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+    width: 1140px;
+    height: 632px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 40px solid none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.left-side-title{
+        margin:100px;
+        margin-top: 10%;
+        margin-bottom: 0%;
+        font-size:97px;
+        font-weight:bold;
+        color:#000000;
+        line-height:200px;
+        text-align:justify;
+        line-height: 100px;
+}
+
+.form-style{
+     display: block;
+    font-size: large;
+    height: 490px;
+    width: 497px;
+    gap: 19px;
+    margin: 20px;
+    text-align: left;
+    border: 20px solid none;
+    border-radius: 10px;
+
+}
+
+
+label{
+    display: block;
+    font-size: 18px;
+    font-weight:500;
+    
+
+    
+}
+
+input{
+    font-size: 20px;
+    font-weight: normal;
+    width: 497px;
+    height: 70px;
+    text-align: left;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 12px 10px;
+    color: #D6DDED;
+}
+
+textarea{
+    font-size: 20px;
+    font-weight: normal;
+    width: 497px;
+    height: 167;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 12px 10px;
+    color: #D6DDED;
+
+}
+
+.btn-touch{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF ;
+    background-color: #4E47FF;
+    border: 2px solid #4E47FF;
+    border-radius: 10px;
+    height: 62px;
+    width: 520px;
+    cursor: pointer;
+    padding: 0px 19px; 
+
+}
